@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(src/\'Human\ Resources\'\ Just\ Doesn\'t\ Tell\ You\ What\ HR\ Really\ Does\ _\ Entrepreneur.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  form h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  form button.button {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+    color: #000;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  form button.button:hover {
+    background-color: rgb(178, 178, 31);
+    color: #fff;
+  }
+  
+  .bg-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

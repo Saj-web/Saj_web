@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(23, 46, 140, 0.664),
+    rgba(39, 101, 139, 0.549) transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+

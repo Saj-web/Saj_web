@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Set a style for the entire body*/
+  body{
+    /* background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(./images/istockphoto-960357302-1024x1024.jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 100vh;
+    background-color: #fcfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Border style*/
+  .borderStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color:rgb(212, 209, 209);
+    border: none;
+    min-width: 300px;
+  }
+  
+  /* Bordered form */
+  form {
+    width: 400px;
+    /* background: #fff; */
+    background: transparent;
+    /* backdrop-filter: blur(20px); */
+    padding: 20px;
+    border-radius: 7px;
+    /* border: 3px solid #f1f1f1; */
+    /* box-shadow: -2px 5px 10px rgba(0,0,0,0.5); */
+  }
+  
+  form:hover{
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
+  }
+  
+  b {
+    color: #000;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email],select {
+    width: 100%;
+    border: 0.5px solid #000;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    font-size: 16px;
+  }
+    
+    /* Set a style for all buttons */
+  button ,input[type=submit]{
+    background-color: rgb(255, 213, 0);
+    color: #000;
+    font-size: 18px;
+    padding: 14px 20px;
+    font-weight: 600;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.10s;
+  }
+    
+    /* Add a hover effect for buttons */
+  button:hover {
+    background-color: rgb(191, 159, 0);
+    color: #fff;
+  }
+    
+    /* Extra style for the cancel button (red) */
+  
+  .cancel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cancelbtn {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #f1f1f1;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cancelbtn:hover {
+    background-color: rgb(157, 0, 0);
+  }
+  
+  .cancelbtn span {
+    color: #f1f1f1;
+  }
+  
+  .password a {
+    color: rgb(255, 213, 0);
+  }
+  
+  .dont-acc a {
+    color: rgb(255, 213, 0);
+  }
+  
+  .password a:hover {
+    text-decoration: underline;
+  }
+  
+  .dont-acc a:hover {
+    text-decoration: underline;
+  }
+    
+    /* Center the avatar image inside this container */
+  .imgcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+  }
+    
+    /* Avatar image */
+  img.avatar {
+    width: 30%;
+    border-radius: 50%;
+    /* border: .5px solid; */
+  }
+    
+    /* Add padding to containers */
+  .container {
+    padding: 16px;
+    color: #000;
+  }
+    /* The Star(*) */
+  .star{
+    color: rgb(206, 4, 4);
+    height: 1px;
+  }
+    
+    /* The "Forgot password" text */
+  span.password {
+    float: right;
+    padding-top: 16px;
+  }
+    
+    /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+      span.password {
+        display: block;
+        float: none;
+      }
+      /* The cancel button*/
+      .cancelbtn {
+        width: 100%;
+      }
+  }
+  
+    /* Password input field*/
+  .password-container{
+    position: relative;
+  }
+  
+  /* Lock icon position*/
+  .lock-icon{
+    position:absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color:grey;
+  }
+  
+  /* Making the passowrd maintain same width as the input field when clicked*/
+  .visible{
+    width: 100%;
+  }
+  
+  /* Selecting password id*/
+  #Password{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
